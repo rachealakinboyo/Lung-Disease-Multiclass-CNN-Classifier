@@ -9,8 +9,10 @@ The following techniques were used:
 - **Data Augmentation**: Random rotations, horizontal flips, and resized cropping were applied to improve model generalization.
 - **Class Imbalance Handling**: Class weights were used in the loss function to address the imbalance between classes.
 - **Early Stopping**: Training was stopped when the validation loss stopped improving to prevent overfitting.
+- **Weight Decay**: L2 regularization (weight decay) was applied during optimization to reduce overfitting by penalizing large weights.
+- **Learning Rate Scheduler**: A learning rate scheduler was used to adjust the learning rate dynamically during training, reducing it when the validation loss plateaued.
 - **Evaluation Metrics**: Precision, recall, F1-score, and confusion matrix were used to evaluate the model on the test set.
-
+  
 ### GPU Used:
 This model was trained using an **NVIDIA Tesla P100 GPU**, which significantly improved training time and allowed for more complex data augmentation and larger batch sizes.
 
