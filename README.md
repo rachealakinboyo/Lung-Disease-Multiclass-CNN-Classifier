@@ -48,4 +48,4 @@ The model achieved an accuracy of **92%** on the test set, with strong precision
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rachealakinboyo/lung-disease-classification.git
+   git clone https://github.com/rachealakinboyo/lung-disease-multiclass-cnn-classifier.git
