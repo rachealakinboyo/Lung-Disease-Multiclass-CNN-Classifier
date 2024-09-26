@@ -37,10 +37,10 @@ This dataset is made available under the **Creative Commons Attribution 4.0 Inte
 
 The model achieved an accuracy of **92%** on the test set, with strong precision, recall, and F1-scores across all classes. Here's a summary of the results:
 
-- **Precision (weighted)**: 0.9235
-- **Recall (weighted)**: 0.9215
-- **F1-Score (weighted)**: 0.9218
-
+- **Precision (weighted)**: 0.9210
+- **Recall (weighted)**: 0.9195
+- **F1-Score (weighted)**: 0.9191
+  
 ### Class-wise Performance:
 - **Normal**: Precision = 0.87, Recall = 0.93, F1-Score = 0.89
 - **Lung Opacity**: Precision = 0.94, Recall = 0.89, F1-Score = 0.91
